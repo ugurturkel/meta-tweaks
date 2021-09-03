@@ -1,0 +1,4 @@
+place the "custom-boot2qt-qt5-rpi3-image.bb" under "sources/meta-boot2qt/meta-boot2qt-distro/recipes-qt/images/" for custom target.
+
+place the "packagegroup-b2qt-qt5-custom-modules-list.bb" under "sources/meta-boot2qt/meta-boot2qt-distro/recipes-qt/packagegroups/"  for custom list of qt5 modules.
+Then edit the "custom-boot2qt-qt5-rpi3-image.bb" recipe for packagegroups.
