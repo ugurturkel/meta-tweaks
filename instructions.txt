@@ -2,3 +2,5 @@ place the "custom-boot2qt-qt5-rpi3-image.bb" under "sources/meta-boot2qt/meta-bo
 
 place the "packagegroup-b2qt-qt5-custom-modules-list.bb" under "sources/meta-boot2qt/meta-boot2qt-distro/recipes-qt/packagegroups/"  for custom list of qt5 modules.
 Then edit the "custom-boot2qt-qt5-rpi3-image.bb" recipe for packagegroups.
+
+replace "wpa_supplicant.conf-sane" config file with the original one in "sources/poky/meta/recipes-connectivity/wpa-supplicant/wpa-supplicant" for wifi setup.
