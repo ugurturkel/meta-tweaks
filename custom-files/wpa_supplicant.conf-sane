@@ -3,5 +3,8 @@ ctrl_interface_group=0
 update_config=1
 
 network={
-        key_mgmt=NONE
+        ssid="Turkel24G"
+        scan_ssid=1
+        psk="ugurmelekorhan"
+        key_mgmt=WPA-PSK
 }
