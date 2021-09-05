@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatic Wifi on Boot Up Service
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /opt/rfid-prototype/bin/autostart-wifi.sh
+
+[Install]
+WantedBy=multi-user.target
